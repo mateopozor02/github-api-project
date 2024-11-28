@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repo Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stack Builders Repositories</h1>
+        <div id="repo-info">
+            <h3>Total Stars: <span id="total-stars">0</span></h3>
+            <button id="loadBtn">Load Repositories</button>
+        </div>
+        <div id="repo-sections">
+            <div>
+                <h2>Repositories with > 5 Stars</h2>
+                <ul id="starred-repos"></ul>
+            </div>
+            <div>
+                <h2>Last 5 Updated Repositories</h2>
+                <ul id="recent-repos"></ul>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../src/app.js"></script>
+</body>
+</html>
